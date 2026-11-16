@@ -2,39 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <!-- Mobile e responsive korar jonno ei line lagbe -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daniel Bin Ashraf | Portfolio</title>
 
-  <!-- Tailwind CSS (internet theke load hobe, install lagbe na) -->
+
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-gray-100 text-gray-800">
 
-  <!-- ========== 1. NAVIGATION BAR ========== -->
-  <!-- Mobile: link gulo upore-niche (flex-col). Desktop: pashapashi (md:flex-row) -->
+  
   <nav class="bg-blue-900 text-white p-4 flex flex-col md:flex-row md:justify-between items-center gap-2">
     <h1 class="text-2xl font-bold">Daniel's Portfolio</h1>
     <div class="flex gap-6">
-      <!-- hover:text-yellow-300 = mouse nile rong holud hobe (interactive) -->
+      
       <a href="#about" class="hover:text-yellow-300">About</a>
       <a href="#projects" class="hover:text-yellow-300">Projects</a>
       <a href="#contact" class="hover:text-yellow-300">Contact</a>
     </div>
   </nav>
 
-  <!-- ========== HERO ========== -->
+  
   <section class="bg-blue-600 text-white text-center py-20 px-4">
     <h2 class="text-3xl md:text-5xl font-bold mb-4">Hi, I'm Daniel Bin Ashraf</h2>
     <p class="mb-6">CSE student at IIUC. I build games, simulations and ideas that matter.</p>
-    <!-- Button: mouse nile rong bodlabe -->
+    
     <a href="#projects" class="bg-white text-blue-700 px-6 py-3 rounded-lg hover:bg-yellow-300">
       See My Work
     </a>
   </section>
 
-  <!-- ========== 2. CONTENT SECTION: ABOUT ========== -->
+  
   <section id="about" class="max-w-4xl mx-auto p-8">
     <h2 class="text-3xl font-bold mb-4">About Me</h2>
     <p class="text-lg">
@@ -45,11 +43,11 @@
     </p>
   </section>
 
-  <!-- ========== 3. CONTENT SECTION: PROJECTS ========== -->
+  
   <section id="projects" class="max-w-4xl mx-auto p-8">
     <h2 class="text-3xl font-bold mb-4">My Projects</h2>
 
-    <!-- Mobile: 1 column (default). Desktop: 3 column (md:grid-cols-3) -->
+    
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl">
@@ -70,7 +68,7 @@
     </div>
   </section>
 
-  <!-- ========== 4. CONTACT ========== -->
+  
   <section id="contact" class="max-w-4xl mx-auto p-8 text-center">
     <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
     <a href="mailto:ashrafdanielbin49@gmail.com" class="text-blue-700 underline hover:text-blue-900">
@@ -78,7 +76,7 @@
     </a>
   </section>
 
-  <!-- ========== FOOTER ========== -->
+  
   <footer class="bg-blue-900 text-white text-center p-4">
     &copy; 2026 Daniel Bin Ashraf
   </footer>
